@@ -4,7 +4,7 @@ A Clojure library implementing distributed atoms on top of hazelcast.
 
 ## Usage
 
-```
+```clojure
 (ns hazelcast-atom.example
   (:require [hazelcast-atom.core :as hza]))
 

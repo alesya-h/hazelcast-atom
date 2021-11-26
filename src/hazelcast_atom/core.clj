@@ -1,6 +1,7 @@
 (ns hazelcast-atom.core
   (:import [clojure.lang IRef IAtom]
-           [com.hazelcast.core IMap EntryAdapter]
+           [com.hazelcast.core EntryAdapter]
+           [com.hazelcast.map IMap]
            [com.hazelcast.map.listener MapListener]))
 
 (defn swap-hz-atom [hz-atom f]
